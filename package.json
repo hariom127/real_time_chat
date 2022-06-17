@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariom127/real_time_chat.git"
+  },
+  "author": "Hariom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariom127/real_time_chat/issues"
+  },
+  "homepage": "https://github.com/hariom127/real_time_chat#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
